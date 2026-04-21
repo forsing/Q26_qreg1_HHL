@@ -80,7 +80,7 @@ except ImportError:
 # =========================
 # Konfiguracija
 # =========================
-CSV_PATH = Path("/Users/4c/Desktop/GHQ/data/loto7hh_4600_k31.csv")
+CSV_PATH = Path("/data/loto7hh_4600_k31.csv")
 N_NUMBERS = 7
 N_MAX = 39
 
@@ -347,7 +347,7 @@ BEST hparam: n_phase= 4 | α (ridge): 0.5 | P(anc=1, ph=0): 0.234486 | cos(bias,
 --- A (skalirana) eigenvalue info ---
   min|λ|=0.033280  max|λ|=0.500000  cond_number=15.0239
 --- glavna predikcija (HHL |x⟩ post-select anc=1, ph=0) ---
-predikcija NEXT: (3, 4, 14, 17, 19, 22, 25)
+predikcija NEXT: (3, 4, x, y, z, 22, 25)
 """
 
 
